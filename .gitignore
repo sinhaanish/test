@@ -1,0 +1,22 @@
+# Node
+node_modules/
+node/
+
+# Build output
+ui.frontend/build/
+target/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Claude Code
+.claude/
+
+# Vim swap files
+*.swp
+*.swo
