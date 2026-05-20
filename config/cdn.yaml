@@ -1,0 +1,10 @@
+kind: 'CDN'
+version: '1'
+data:
+  originSelectors:
+    rules:
+      - name: route-to-boilerplate
+        when: { reqProperty: path, equals: "/weather" }
+        action:
+          type: selectAemOrigin
+          originName: edgefunction-aem-edge-functions-boilerplate
